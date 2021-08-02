@@ -26,6 +26,8 @@ public class RpcFactoryBeanRegister implements BeanDefinitionRegistryPostProcess
             BeanDefinitionBuilder beanDefinitionBuilder = BeanDefinitionBuilder.genericBeanDefinition(aClass);
             GenericBeanDefinition rawBeanDefinition = (GenericBeanDefinition) beanDefinitionBuilder.getRawBeanDefinition();
 
+
+            
         }
 
     }
