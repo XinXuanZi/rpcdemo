@@ -29,6 +29,9 @@ public class RpcBeanFactory implements FactoryBean {
     }
 
     private Object create() {
+
+
+        
         return Proxy.newProxyInstance(
                 aClass.getClassLoader(),
                 aClass.getInterfaces(),
